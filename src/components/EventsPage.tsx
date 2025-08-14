@@ -14,6 +14,7 @@ const EventsPage = () => {
     return (
       <div className="min-h-screen flex flex-col items-center justify-center bg-blue-50">
         <div className="relative">
+          <h1></h1>
           {/* Outer ring */}
           <div className="w-16 h-16 border-4 border-blue-100 rounded-full animate-spin border-t-blue-600"></div>
           {/* Inner ring with slower spin */}
